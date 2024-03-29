@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "subjects",
+  "info": {
+    "singularName": "subject",
+    "pluralName": "subjects",
+    "displayName": "Subject",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subjectTitle": {
+      "type": "string",
+      "unique": true
+    },
+    "subjectSyllabus": {
+      "type": "richtext"
+    },
+    "subjectDescription": {
+      "type": "text"
+    },
+    "subjectFeaturedImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Department": {
+      "type": "enumeration",
+      "enum": [
+        "Mathematics",
+        "Languages",
+        "Software Development",
+        "Sports",
+        "Visual Musical and Performing Arts",
+        "Mindfulness and Mental Health",
+        "Business Production",
+        "Reading for Fun"
+      ]
+    },
+    "hoursForCompletion": {
+      "type": "decimal",
+      "default": 48
+    }
+  }
+}

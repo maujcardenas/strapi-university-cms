@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "segments",
+  "info": {
+    "singularName": "segment",
+    "pluralName": "segments",
+    "displayName": "Segment"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "startDateSegment": {
+      "type": "date"
+    },
+    "finishDateSegment": {
+      "type": "date"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "students",
+  "info": {
+    "singularName": "student",
+    "pluralName": "students",
+    "displayName": "Student",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "studentName": {
+      "type": "string"
+    },
+    "studentEmail": {
+      "type": "email",
+      "unique": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "studentName",
+      "required": true
+    }
+  }
+}
