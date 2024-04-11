@@ -816,8 +816,8 @@ export interface ApiCourseCompletionCourseCompletion
       'oneToOne',
       'api::subject.subject'
     >;
-    Grade: Attribute.Enumeration<['A', 'B', 'C', 'D', 'F', 'Not yet graded']> &
-      Attribute.DefaultTo<'Not yet graded'>;
+    Grade: Attribute.Enumeration<['A', 'B', 'C', 'D', 'F', 'NG']> &
+      Attribute.DefaultTo<'NG'>;
     currentCourseHours: Attribute.Decimal & Attribute.DefaultTo<0>;
     isCompleted: Attribute.Boolean & Attribute.DefaultTo<false>;
     createdAt: Attribute.DateTime;

@@ -35,9 +35,9 @@
         "C",
         "D",
         "F",
-        "Not yet graded"
+        "NG"
       ],
-      "default": "Not yet graded"
+      "default": "NG"
     },
     "currentCourseHours": {
       "type": "decimal",
